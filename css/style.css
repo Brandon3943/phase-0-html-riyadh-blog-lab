@@ -17,6 +17,7 @@ body {
   margin: 0 auto;
   width: 60%;
   padding-bottom: 40px;
+  opacity: 90%;
 }
 
 #content {
@@ -32,17 +33,20 @@ h1, h2 {
 h1 {
   font-size: 3.5em;
   margin-bottom: 0;
+  text-align: center;
 }
 
 h2 {
   font-size: 1.5em;
   margin-top: .5em;
+  text-align: center;
 }
 
 h3 {
   font-family: 'Gabriela', serif;
   font-size: 1.5em;
   margin-top: .5em;
+  text-align: center;
 }
 
 img {
@@ -58,10 +62,23 @@ p {
 a {
   color: black;
   text-decoration: none;
+  text-align: right;
+  border: 2px solid grey;
+  padding: 10px 20px;
+  margin: 0 10px;
+  display: inline-block;
+}
+
+.links {
+  position: relative;
+  left: 17em;
+  
 }
 
 a:hover {
   text-decoration: underline;
+  background-color: rgb(80, 80, 80);
+  color: white;
 }
 
 @media only screen and (max-width: 1042px) {
